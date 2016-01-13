@@ -226,7 +226,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Jim Dovey";
 			};
 			buildConfigurationList = 385FFB93156D461000F3D09E /* Build configuration list for PBXProject "AQOptionParser" */;
@@ -323,6 +323,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -374,6 +375,7 @@
 				GCC_PREFIX_HEADER = "AQOptionParser/AQOptionParser-Prefix.pch";
 				INFOPLIST_FILE = "AQOptionParser/AQOptionParser-Info.plist";
 				INSTALL_PATH = "@rpath";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alanquatermain.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -391,6 +393,7 @@
 				GCC_PREFIX_HEADER = "AQOptionParser/AQOptionParser-Prefix.pch";
 				INFOPLIST_FILE = "AQOptionParser/AQOptionParser-Info.plist";
 				INSTALL_PATH = "@rpath";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alanquatermain.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -408,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AQOptionParser/AQOptionParser-Prefix.pch";
 				INFOPLIST_FILE = "AQOptionParserTests/AQOptionParserTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alanquatermain.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,6 +428,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AQOptionParser/AQOptionParser-Prefix.pch";
 				INFOPLIST_FILE = "AQOptionParserTests/AQOptionParserTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.alanquatermain.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
